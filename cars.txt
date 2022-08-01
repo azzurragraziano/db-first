@@ -1,0 +1,15 @@
+Modellizzare in un file di testo come visto questa mattina, la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+id - number - BIGINT - NOTNULL
+isbn - number - VARCHAR(15) - NOTNULL
+modello - string - VARCHAR(50) - NOTNULL
+marca - string - VARCHAR(20) - NOTNULL
+colore - string - VARCHAR(20) - NULL
+prezzo del veicolo - number -  DECIMAL(6, 0) - NOTNULL
+classe del veicolo - string - VARCHAR(10)
+numero di porte - number - SMALLINT - NULL
+numeri di sedili - number - SMALLINT - NULL
+cilindrata - number - DECIMAL(5, 0) - NOTNULL
+numero di chiavi - number - SMALLINT - NULL
+cruise control - boolean - TINYINT - NULL
+anno - YEAR - NULL
